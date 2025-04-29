@@ -6,12 +6,15 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import FaceIcon from '@mui/icons-material/Face';
 import PaymentsOutlinedIcon from '@mui/icons-material/PaymentsOutlined';
 import StoreOutlinedIcon from '@mui/icons-material/StoreOutlined';
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
+import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import QrCodeIcon from '@mui/icons-material/QrCode';
 
 
 const paymentIcons: { [key: string]: React.ReactNode } = {
-  "Link de pago - PSE": <FaceIcon style={{ fontSize: 40 }} />,
-  Datafono: <FaceIcon style={{ fontSize: 40 }} />,
-  "Pasarela propia": <FaceIcon style={{ fontSize: 40 }} />,
+  "Link de pago - PSE": <AccountBalanceIcon style={{ fontSize: 40 }} />,
+  Datafono: <QrCodeIcon style={{ fontSize: 40 }} />,
+  "Pasarela propia": <MonetizationOnIcon style={{ fontSize: 40 }} />,
   Efectivo: <PaymentsOutlinedIcon style={{ fontSize: 40 }} />,
   "Datafono Propio": <FaceIcon style={{ fontSize: 40 }} />,
   "Corresponsales bancarios": <StoreOutlinedIcon style={{ fontSize: 40 }} />,
