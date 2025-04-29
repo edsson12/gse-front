@@ -1,1 +1,1 @@
-export const API_URL = "http://localhost:5032/api";
+export const API_URL = "https://gse-back.onrender.com";
