@@ -25,10 +25,10 @@ const GeneralInformationStep = ({
   vehicleTypes,
 }: GeneralInformationStepProps) => {
 
-  const mappedServices = services.map((item) => {
+  const mappedServices = services?.map((item) => {
     return { id: item._id, name: item.name };
   })
-  const mappedVehicleTypes = vehicleTypes.map((item) => {
+  const mappedVehicleTypes = vehicleTypes?.map((item) => {
     return { id: item._id, name: item.name };
   });
 
